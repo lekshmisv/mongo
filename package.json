@@ -1,11 +1,11 @@
 {
   "dependencies": {
-    "mongodb": "^4.1.0"
+    "mongodb": "^4.1.0",
+    "mongoose": "^6.0.0"
   },
   "name": "mongo",
   "version": "1.0.0",
   "main": "mong.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

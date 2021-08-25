@@ -32,18 +32,16 @@ MongoClient.connect(connectionUrl,(error,client)=>{
 
     //insert many 
 
-  /* db.collection('student').insertMany([
+   db.collection('student').insertMany([
         {
-            _id:new ObjectId("611df5d54ceaa0110ab580aa"),
-            name:"Lechu",
-            rollNo:21,
+            name:"Lechu SV",
+            rollNo:27,
             age:23,
             batch:"mca" 
         },
         {
-            _id:new ObjectId("611df5d54ceaa0110ab580ac"),
-            name:"Anju",
-            rollNo:25,
+            name:"Anju B",
+            rollNo:28,
             age:24,
             batch:"mca" 
         },
@@ -52,7 +50,7 @@ MongoClient.connect(connectionUrl,(error,client)=>{
         console.log(result);
     }).catch((error)=>{
         console.log(error);
-    }) */
+    })
 
    /* db.collection('student').findOne({_id:ObjectId("611df5d54ceaa0110ab580ca")}).then((student)=>{
         console.log(student);
@@ -118,12 +116,12 @@ MongoClient.connect(connectionUrl,(error,client)=>{
         console.log(error);
     }); */
 
-     db.collection('student').deleteMany({
+     /* db.collection('student').deleteMany({
         rollNo:22
     }).then((result)=>{
         console.log(result);
     }).catch((error)=>{
         console.log(error);
-    });
+    }); */
 
 });
